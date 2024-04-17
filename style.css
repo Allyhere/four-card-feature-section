@@ -51,7 +51,7 @@ body {
 
 .card-list {
   --height: 250px;
-  --min-width: 315px;
+  --min-width: 350px;
   display: grid;
   gap: var(--spacing-card);
   grid-template: repeat(3, calc(var(--height) * 2 / 3)) / repeat(
@@ -70,7 +70,7 @@ body {
 .card {
   display: grid;
   grid-area: var(--area, initial);
-  width: clamp(var(--min-width), 100%, 315px);
+  width: clamp(var(--min-width), 100%, 350px);
   min-width: var(--min-width);
   height: var(--height);
   padding: var(--spacing-card);
